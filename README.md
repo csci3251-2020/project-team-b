@@ -1,6 +1,6 @@
-# This team hasn't started yet...
-
-Check back later!
-
-**Please read `tasks.md` to start your work.**
- 
+# Introduction
+- we are doing all sorts of things
+# Code
+- what is this for?
+# Contributors
+- what is this for?
