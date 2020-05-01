@@ -9,7 +9,11 @@ int main()
     time(&currentTime);
 
     struct tm *utcTime = localtime(&currentTime);
-    printf("Hello wonderful person, the current time is %s!", asctime(utcTime));
+    char timeStr[64];
+    
+    strftime(timeStr, 64, "today is %d/%m/%Y and it is %H:%M:%S now!", utcTime);
+    
+    printf("Hello wonderful person, %s", timeStr);
 
     return 0;
 }
